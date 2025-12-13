@@ -4,7 +4,8 @@
 <!-- Organization Logo -->
 <div align="center" style="display: flex; align-items: center; justify-content: center; gap: 16px;">
   <img alt="Stability Nexus" src="public/stability.svg" width="175">
-  <img src="public/todo-project-logo.svg" width="175" />
+  <img alt="HodlCoin Phoenix Project Logo" src="public/todo-project-logo.svg" width="175" />
+
 </div>
 
 &nbsp;
@@ -19,27 +20,27 @@
 <p align="center">
 <!-- Telegram -->
 <a href="https://t.me/StabilityNexus">
-<img src="https://img.shields.io/badge/Telegram-black?style=flat&logo=telegram&logoColor=white&color=24A1DE"/></a>
+<img alt="Telegram" src="https://img.shields.io/badge/Telegram-black?style=flat&logo=telegram&logoColor=white&color=24A1DE"/></a>
 &nbsp;&nbsp;
 <!-- X -->
 <a href="https://x.com/StabilityNexus">
-<img src="https://img.shields.io/twitter/follow/StabilityNexus"/></a>
+<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/StabilityNexus"/></a>
 &nbsp;&nbsp;
 <!-- Discord -->
 <a href="https://discord.gg/YzDKeEfWtS">
-<img src="https://img.shields.io/discord/995968619034984528?style=flat&logo=discord&logoColor=white&label=Discord&labelColor=5865F2&color=57F287"/></a>
+<img alt="Discord" src="https://img.shields.io/discord/995968619034984528?style=flat&logo=discord&logoColor=white&label=Discord&labelColor=5865F2&color=57F287"/></a>
 &nbsp;&nbsp;
 <!-- Medium -->
 <a href="https://news.stability.nexus/">
-<img src="https://img.shields.io/badge/Medium-black?style=flat&logo=medium&color=white"/></a>
+<img alt="Medium" src="https://img.shields.io/badge/Medium-black?style=flat&logo=medium&color=white"/></a>
 &nbsp;&nbsp;
 <!-- LinkedIn -->
 <a href="https://linkedin.com/company/stability-nexus">
-<img src="https://img.shields.io/badge/LinkedIn-black?style=flat&logo=LinkedIn&color=0A66C2"/></a>
+<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-black?style=flat&logo=LinkedIn&color=0A66C2"/></a>
 &nbsp;&nbsp;
 <!-- YouTube -->
 <a href="https://www.youtube.com/@StabilityNexus">
-<img src="https://img.shields.io/youtube/channel/subscribers/UCZOG4YhFQdlGaLugr_e5BKw?style=flat&logo=youtube&labelColor=FF0000&color=FF0000"/></a>
+<img alt="YouTube Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCZOG4YhFQdlGaLugr_e5BKw?style=flat&logo=youtube&labelColor=FF0000&color=FF0000"/></a>
 </p>
 
 ---
@@ -71,8 +72,7 @@ All HodlCoin Phoenix fee contract implementations **must** send a minimum fee am
 
 9gnBtmSRBMaNTkLQUABoAqmU2wzn27hgqVvezAC9SU1VqFKZCp8
 
-markdown
-Copy code
+
 
 Fee rule:
 
@@ -83,8 +83,7 @@ Fee rule:
 
 Q ≥ 0.025 × (F / D)
 
-yaml
-Copy code
+
 
 As long as this condition is satisfied, any further custom constraints may be added to the fee contract implementation.
 
@@ -95,7 +94,7 @@ As long as this condition is satisfied, any further custom constraints may be ad
 The HodlCoin protocol is described in the official research paper:
 
 📄 **HodlCoin: A Trustless Savings Protocol for Stable Value Creation**  
-https://eprint.iacr.org/2023/1029
+[Read the paper](https://eprint.iacr.org/2023/1029)
 
 ---
 
