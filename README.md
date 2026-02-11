@@ -1,19 +1,113 @@
-# phoenix-hodlcoin-contracts
-ErgoScript contracts for the Phoenix implementation of HodlCoin.
+<!-- Don't delete it -->
+<div name="readme-top"></div>
 
-## Implementation Type
-1. [hodlERG](/hodlERG/README.md)
-2. [hodlToken](/hodlToken/README.md)
+<!-- Organization Logo -->
+<div align="center" style="display: flex; align-items: center; justify-content: center; gap: 16px;">
+  <img alt="Stability Nexus" src="public/stability.svg" width="175">
+  <img alt="HodlCoin Phoenix Project Logo" src="public/todo-project-logo.svg" width="175" />
 
-## Fee Implementation Guidelines
-For the hodlCoin protocol, any implementation of the fee contract must send a minimum amount to Dr. Bruno Woltzenlogel Paleo's address: 9gnBtmSRBMaNTkLQUABoAqmU2wzn27hgqVvezAC9SU1VqFKZCp8
+</div>
 
-- Let Q be the amount that must be sent to Bruno's address.
-- Let F be the bank fee percentage.
-- Let D be the developer fee percentage.
-- Then, Q >= 0.025 * (F/D)
+&nbsp;
 
-As long as this condition is satisfied, you may include any other constraint in your implementation of the fee contract.
+<!-- Organization Name -->
+<div align="center">
 
-## References
-The HodlCoin protocol paper can be found [here](https://eprint.iacr.org/2023/1029).
+[![Static Badge](https://img.shields.io/badge/Stability_Nexus-HodlCoin_Phoenix-228B22?style=for-the-badge&labelColor=FFC517)](https://stability.nexus/)
+
+</div>
+
+<p align="center">
+<!-- Telegram -->
+<a href="https://t.me/StabilityNexus">
+<img alt="Telegram" src="https://img.shields.io/badge/Telegram-black?style=flat&logo=telegram&logoColor=white&color=24A1DE"/></a>
+&nbsp;&nbsp;
+<!-- X -->
+<a href="https://x.com/StabilityNexus">
+<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/StabilityNexus"/></a>
+&nbsp;&nbsp;
+<!-- Discord -->
+<a href="https://discord.gg/YzDKeEfWtS">
+<img alt="Discord" src="https://img.shields.io/discord/995968619034984528?style=flat&logo=discord&logoColor=white&label=Discord&labelColor=5865F2&color=57F287"/></a>
+&nbsp;&nbsp;
+<!-- Medium -->
+<a href="https://news.stability.nexus/">
+<img alt="Medium" src="https://img.shields.io/badge/Medium-black?style=flat&logo=medium&color=white"/></a>
+&nbsp;&nbsp;
+<!-- LinkedIn -->
+<a href="https://linkedin.com/company/stability-nexus">
+<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-black?style=flat&logo=LinkedIn&color=0A66C2"/></a>
+&nbsp;&nbsp;
+<!-- YouTube -->
+<a href="https://www.youtube.com/@StabilityNexus">
+<img alt="YouTube Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCZOG4YhFQdlGaLugr_e5BKw?style=flat&logo=youtube&labelColor=FF0000&color=FF0000"/></a>
+</p>
+
+---
+
+<div align="center">
+<h1>HodlCoin Phoenix – ErgoScript Contracts</h1>
+</div>
+
+The **HodlCoin Phoenix** project contains the ErgoScript smart contracts that implement the Phoenix version of the HodlCoin protocol.  
+This repository includes fee-handling rules, token-based implementations, and formal references derived from the HodlCoin research paper.
+
+---
+
+
+## 📦 Implementation Types
+
+This repository includes two implementations:
+
+1. **[hodlERG](/hodlERG/README.md)** — implementation using ERG.  
+2. **[hodlToken](/hodlToken/README.md)** — token-based implementation.
+
+Both follow the HodlCoin Phoenix contract architecture.
+
+---
+
+## 💸 Fee Contract Implementation Guidelines
+
+All HodlCoin Phoenix fee contract implementations **must** send a minimum fee amount to **Dr. Bruno Woltzenlogel Paleo’s Ergo address**:
+
+9gnBtmSRBMaNTkLQUABoAqmU2wzn27hgqVvezAC9SU1VqFKZCp8
+
+
+
+Fee rule:
+
+- Let **Q** = amount paid to Bruno’s address.  
+- Let **F** = bank fee percentage.  
+- Let **D** = developer fee percentage.  
+- Then:
+
+Q ≥ 0.025 × (F / D)
+
+
+
+As long as this condition is satisfied, any further custom constraints may be added to the fee contract implementation.
+
+---
+
+## 🧠 References
+
+The HodlCoin protocol is described in the official research paper:
+
+📄 **HodlCoin: A Trustless Savings Protocol for Stable Value Creation**  
+[Read the paper](https://eprint.iacr.org/2023/1029)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repo and create a branch (`git checkout -b feature/MyChange`).  
+2. Implement changes and write tests if applicable.  
+3. Submit a PR with clear explanations.  
+
+For bugs or questions, open an issue with steps to reproduce and logs.
+
+---
+
+© 2025 The Stable Order
